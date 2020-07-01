@@ -112,10 +112,3 @@ acc_svm = accuracy_score(y_test, y_pred_svm)
 cm_svm = confusion_matrix(y_test, y_pred_svm)
 print("\nAccuracy of Support Vector Machine: \n", acc_svm)
 print('\nConfusion Matrix of Support Vector Machine: \n', cm_svm)
-
-print("Would YOU be able to survive the sinking of the RMS Titanic? Enter details here and find out: ")
-
-p_name = input("Enter name: ")
-p_age = int(input("Enter Age: "))
-
-details = [p_pclass, p_age, p_sib, p_par, p_fare, p_sex, p_emb]
